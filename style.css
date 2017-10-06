@@ -1,0 +1,139 @@
+html,
+body {
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase!important;
+  font-family: 'Press Start 2P', sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  font: bold 3rem 'Press Start 2P', sans-serif;
+  margin: 3rem 0 0 0;
+}
+h3 {
+  color: #fff;
+  font: 2.2rem small-caps 'Press Start 2P', sans-serif;
+  margin: 2rem 0;
+}
+*:focus {
+    outline: 0!important;
+}
+
+.btn-success {
+  width: 4.5rem;
+  height: 4.5rem;
+  font: 2rem 'Press Start 2P', sans-serif;
+  margin: 0 0.5rem 1rem;
+  border: none;
+}
+.container{
+display: flex;
+flex-flow: column nowrap;
+align-items: center;
+justify-content:center;
+}
+#board {
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: 100%;
+}
+
+.tile {
+  display: flex;
+  justify-content:center;
+  width: 7rem;
+  height: 7rem;
+  line-height: 7rem;;
+  padding: 0;
+  margin: 0.3rem;
+  background-color: #fff;
+  border-radius: 5%;
+  font-size: 3.75rem;
+  color: #000!important;
+}
+
+button {
+  text-align: center;
+}
+
+#new,
+#reset {
+  width: 12rem;
+  height: 5rem;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  border: none;
+  font: 1rem 'Press Start 2P', sans-serif;
+  margin: 10px;
+}
+
+#scoreboard {
+  text-align: center;
+  margin: 0;
+}
+.score {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+span {
+    margin-left:1rem;
+}
+.winner {
+  background-color: red;
+  color: #fff!important;
+}
+footer p {
+  text-align: center;
+  font-size: 0.5rem;
+  padding: 0 auto;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+  h1 {
+    font-size: 2rem;
+    margin: 2rem 0 0 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .tile {
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    font-size: 2rem;
+  }
+
+.btn-success {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0;
+    border: none;
+  }
+  
+#new,
+#reset {
+  width: 5rem;
+  height: 2rem;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  border: none;
+  font: 50% 'Press Start 2P', sans-serif;
+  margin: 5px;
+}
+  
+  #scoreboard {font-size:1rem;}
+  .score {font-size: 1rem;}
+}

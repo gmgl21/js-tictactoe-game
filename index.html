@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Custom CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1>tic tac toe</h1>
+    <h3>X or O ?</h3>
+    <div class="row">
+    <button type="button" class="btn btn-success choose" id="x">X</button>
+    <button type="button" class="btn btn-success choose" id="o">O</button>
+    </div>
+    <div class="board">
+      <div class="row">
+        <div class="col-xs-4 tile" id="s0"></div>
+        <div class="col-xs-4 tile" id="s1"></div>
+        <div class="col-xs-4 tile" id="s2"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4 tile" id="s3"></div>
+        <div class="col-xs-4 tile" id="s4"></div>
+        <div class="col-xs-4 tile" id="s5"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4 tile" id="s6"></div>
+        <div class="col-xs-4 tile" id="s7"></div>
+        <div class="col-xs-4 tile" id="s8"></div>
+      </div>
+    </div>
+    <div id="display"></div>
+    <div class="row">
+      <button class="btn btn-primary" id="new">new game</button>
+      <button class="btn btn-danger" id="reset">reset</button>
+    </div>
+  </div>
+  <br>
+  <h3 id="scoreboard"> scores</h3>
+    <p class="score">Player<span class="person"></span>
+    Computer<span class="aiPlayer"></span></p>
+
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./scripts.js"></script>
+</body>
+<footer>
+  <div>
+    <p>Created and coded by <a href="https://github.com/gmgl21" target="_blank"><span>Gloria Lee</span></a>
+    </p>
+  </div>
+</footer>
+</html>
